@@ -1,4 +1,6 @@
 import { React, useContext, useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
@@ -9,6 +11,8 @@ import EwrongPassword from "./EwrongPassword"
 function EloginPassword({ eventId, setAuth }) {
 
   const [currentState, setCurrentState] = useState("false")
+
+  const navigate = useNavigate();
 
   const onFormSubmit = e => {
     e.preventDefault();
@@ -54,7 +58,10 @@ function EloginPassword({ eventId, setAuth }) {
       {currentState == "wrong" ? <><hr /><EwrongPassword /></> : <></>}
 
       <hr />
-      <Button variant="outline-primary" href="/e2/">
+      <Button variant="outline-primary" onClick={() => {
+        localStorage.clear();
+        navigate("/e2");
+      }} >
         ID入力へ戻る
       </Button>
     </>

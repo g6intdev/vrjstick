@@ -1,6 +1,6 @@
 import { React, useContext, useState } from "react";
 
-import Cookies from 'js-cookie'
+import { useNavigate } from "react-router-dom";
 
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -10,7 +10,10 @@ import Button from 'react-bootstrap/Button';
 
 import logo from "../../assets/react.svg"
 
-function Eeventloggedinnavbar({setAuth}) {
+function Eeventloggedinnavbar({ setAuth }) {
+
+  const navigate = useNavigate();
+
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
@@ -26,12 +29,16 @@ function Eeventloggedinnavbar({setAuth}) {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">{'　'}
-          <Button variant="default" href="./" onClick={() => {
+          <Button variant="default" onClick={() => {
+
+            localStorage.clear();
 
             setAuth("false")
             // Object.keys(Cookies.get()).forEach(function (cookieName) {
             //   Cookies.remove(cookieName)
             // });
+            navigate("./")
+
           }}>
             ログアウト
           </Button>

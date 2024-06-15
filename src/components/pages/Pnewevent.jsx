@@ -1,6 +1,7 @@
 import { React, useContext, useState } from "react";
 import ReactDOM from 'react-dom';
 
+import { useNavigate } from "react-router-dom";
 
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
@@ -12,6 +13,8 @@ import Eneweventsuccess from "../elements/Eneweventsuccess";
 function Pnewevent() {
 
   const [getresponse, setResponse] = useState("");
+
+  const navigate = useNavigate();
 
   const onFormSubmit = e => {
     e.preventDefault();
@@ -72,7 +75,7 @@ function Pnewevent() {
       {getresponse != "" ? <><hr /><Eneweventsuccess newID={getresponse} /></> : <></>}
 
       <hr />
-      <Button variant="outline-primary" href="/e2">
+      <Button variant="outline-primary" onClick={()=>{navigate("/e2")}}>
         ログインに戻る
       </Button>
 

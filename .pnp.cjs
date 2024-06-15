@@ -35,7 +35,6 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react", "virtual:84ab937261ab1186ce9d7b32e0776d87a00f18be9e7cbecadad38d22dc4f1a0c95f4bc0be774c17a6654c02d251218005b7208c9bccec11f331f887559d6168b#npm:7.34.2"],\
           ["eslint-plugin-react-hooks", "virtual:84ab937261ab1186ce9d7b32e0776d87a00f18be9e7cbecadad38d22dc4f1a0c95f4bc0be774c17a6654c02d251218005b7208c9bccec11f331f887559d6168b#npm:4.6.2"],\
           ["eslint-plugin-react-refresh", "virtual:84ab937261ab1186ce9d7b32e0776d87a00f18be9e7cbecadad38d22dc4f1a0c95f4bc0be774c17a6654c02d251218005b7208c9bccec11f331f887559d6168b#npm:0.4.7"],\
-          ["js-cookie", "npm:3.0.5"],\
           ["react", "npm:18.3.1"],\
           ["react-bootstrap", "virtual:84ab937261ab1186ce9d7b32e0776d87a00f18be9e7cbecadad38d22dc4f1a0c95f4bc0be774c17a6654c02d251218005b7208c9bccec11f331f887559d6168b#npm:2.10.2"],\
           ["react-dom", "virtual:84ab937261ab1186ce9d7b32e0776d87a00f18be9e7cbecadad38d22dc4f1a0c95f4bc0be774c17a6654c02d251218005b7208c9bccec11f331f887559d6168b#npm:18.3.1"],\
@@ -3097,15 +3096,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["js-cookie", [\
-      ["npm:3.0.5", {\
-        "packageLocation": "../../.yarn/berry/cache/js-cookie-npm-3.0.5-8fc8fcc9b4-10c0.zip/node_modules/js-cookie/",\
-        "packageDependencies": [\
-          ["js-cookie", "npm:3.0.5"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["js-tokens", [\
       ["npm:4.0.0", {\
         "packageLocation": "../../.yarn/berry/cache/js-tokens-npm-4.0.0-0ac852e9e2-10c0.zip/node_modules/js-tokens/",\
@@ -4707,7 +4697,6 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react", "virtual:84ab937261ab1186ce9d7b32e0776d87a00f18be9e7cbecadad38d22dc4f1a0c95f4bc0be774c17a6654c02d251218005b7208c9bccec11f331f887559d6168b#npm:7.34.2"],\
           ["eslint-plugin-react-hooks", "virtual:84ab937261ab1186ce9d7b32e0776d87a00f18be9e7cbecadad38d22dc4f1a0c95f4bc0be774c17a6654c02d251218005b7208c9bccec11f331f887559d6168b#npm:4.6.2"],\
           ["eslint-plugin-react-refresh", "virtual:84ab937261ab1186ce9d7b32e0776d87a00f18be9e7cbecadad38d22dc4f1a0c95f4bc0be774c17a6654c02d251218005b7208c9bccec11f331f887559d6168b#npm:0.4.7"],\
-          ["js-cookie", "npm:3.0.5"],\
           ["react", "npm:18.3.1"],\
           ["react-bootstrap", "virtual:84ab937261ab1186ce9d7b32e0776d87a00f18be9e7cbecadad38d22dc4f1a0c95f4bc0be774c17a6654c02d251218005b7208c9bccec11f331f887559d6168b#npm:2.10.2"],\
           ["react-dom", "virtual:84ab937261ab1186ce9d7b32e0776d87a00f18be9e7cbecadad38d22dc4f1a0c95f4bc0be774c17a6654c02d251218005b7208c9bccec11f331f887559d6168b#npm:18.3.1"],\

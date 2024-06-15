@@ -1,9 +1,7 @@
 import { React, useContext, useState } from "react";
 import ReactDOM from 'react-dom';
 
-import { redirect, Navigate } from "react-router-dom";
-
-import Cookies from 'js-cookie'
+import { redirect, Navigate, useNavigate } from "react-router-dom";
 
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
@@ -17,6 +15,14 @@ import EloginPassword from "../elements/EloginPassword";
 function Pe2idInput() {
 
   const [eventId, setEventId] = useState("");
+
+  const navigate = useNavigate();
+
+  console.log(localStorage.getItem("eventId"))
+
+  if (eventId == "" && localStorage.getItem("eventId") != null) {
+    setEventId(localStorage.getItem("eventId"))
+  }
 
   const onFormSubmit = e => {
     e.preventDefault();
@@ -47,7 +53,7 @@ function Pe2idInput() {
             </Button>
           </Form>
           <hr />
-          <Button variant="outline-primary" href="/event/new">
+          <Button variant="outline-primary" onClick={()=>navigate("/event/new")}>
             新しいイベントを作成
           </Button>
         </Container>

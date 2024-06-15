@@ -1,8 +1,6 @@
 import { React, useContext, useState } from "react";
 import ReactDOM from 'react-dom';
 
-import Cookies from 'js-cookie'
-
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Container from 'react-bootstrap/Container';
@@ -15,8 +13,14 @@ import EloginPassword from "../elements/EloginPassword";
 function Pe2indivIdDash({ eventId }) {
   const [auth, setAuth] = useState("false");
 
+  if (auth == false && localStorage.getItem("eventRole") != null) {
+    setAuth(localStorage.getItem("eventAuth"))
+  }
+
   if (auth == "master") {
     console.log(auth);
+    localStorage.setItem("eventId", eventId)
+    localStorage.setItem("eventRole", "master")
     return (
       <>
         <Eeventloggedinnavbar setAuth={setAuth} />
@@ -27,6 +31,8 @@ function Pe2indivIdDash({ eventId }) {
     )
   } else if (auth == "edit") {
     console.log(auth);
+    localStorage.setItem("eventId", eventId)
+    localStorage.setItem("eventRole", "edit")
     return (
       <>
         <Eeventloggedinnavbar setAuth={setAuth} />

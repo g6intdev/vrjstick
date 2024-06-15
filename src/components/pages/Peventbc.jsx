@@ -1,8 +1,6 @@
 import { React, useContext, useState } from "react";
 import ReactDOM from 'react-dom';
 
-import Cookies from 'js-cookie'
-
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Container from 'react-bootstrap/Container';
@@ -15,9 +13,6 @@ function Peventbc() {
   const [isLoggedIn, setIsLoggedIn] = useState("false");
   const [getresponse, setResponse] = useState("");
   const [gFormData, setgFormData] = useState("");
-  const [allCookies, setAllCookies] = useState(Cookies.get());
-
-  console.log(Cookies.get())
 
   if (allCookies._id != undefined && isLoggedIn == "false") {
     setIsLoggedIn(allCookies.role)
@@ -59,15 +54,9 @@ function Peventbc() {
     if (getresponse != "") {
 
       if (getresponse.masterPassword == gFormData.editPassword) {
-        Cookies.set("id", getresponse._id)
-        Cookies.set("eventName", getresponse.name)
-        Cookies.set("role", "master")
         setIsLoggedIn("master");
 
       } else if (getresponse.editPassword == gFormData.editPassword) {
-        Cookies.set("id", getresponse._id)
-        Cookies.set("eventName", getresponse.name)
-        Cookies.set("role", "edit")
         setIsLoggedIn("edit");
       } else {
         return (
