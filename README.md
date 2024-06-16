@@ -1,8 +1,29 @@
-# React + Vite
+# vrjstick
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is for the UI frontend for the API which [testapp1](https://github.com/g6intdev/testapp1) provides. 
 
-Currently, two official plugins are available:
+This web app is created using vite and react. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Getting statrted
+
+## Prerequisites
+
+To get started with this web app, you need to have node.js (v20 or later, v22 recommended) installed. This project uses modern yarn, so make sure to enable corepack. Before installing this, make sure to set up the [testapp1](https://github.com/g6intdev/testapp1) backend or otherwise it will not work correctly. 
+
+## installing
+
+Clone this repo
+
+        git clone https://github.com/g6intdev/vrjstick.git
+
+Then, install required dependencies
+
+        yarn install
+
+Then, just run the app!
+
+        yarn dev
+
+# Contributing
+
+Feel free to contribute to this repository anytime. 
