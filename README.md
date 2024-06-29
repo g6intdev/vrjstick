@@ -18,7 +18,7 @@ cd into the directoy of your choice and clone this repo
 
 Move into the directory
 
-        cd testapp1
+        cd vrjstick
 
 Then, install required dependencies
 
