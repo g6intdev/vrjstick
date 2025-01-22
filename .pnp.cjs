@@ -39,7 +39,7 @@ const RAW_RUNTIME_STATE =
           ["react-bootstrap", "virtual:84ab937261ab1186ce9d7b32e0776d87a00f18be9e7cbecadad38d22dc4f1a0c95f4bc0be774c17a6654c02d251218005b7208c9bccec11f331f887559d6168b#npm:2.10.2"],\
           ["react-dom", "virtual:84ab937261ab1186ce9d7b32e0776d87a00f18be9e7cbecadad38d22dc4f1a0c95f4bc0be774c17a6654c02d251218005b7208c9bccec11f331f887559d6168b#npm:18.3.1"],\
           ["react-router-dom", "virtual:84ab937261ab1186ce9d7b32e0776d87a00f18be9e7cbecadad38d22dc4f1a0c95f4bc0be774c17a6654c02d251218005b7208c9bccec11f331f887559d6168b#npm:6.23.1"],\
-          ["vite", "virtual:84ab937261ab1186ce9d7b32e0776d87a00f18be9e7cbecadad38d22dc4f1a0c95f4bc0be774c17a6654c02d251218005b7208c9bccec11f331f887559d6168b#npm:5.4.6"]\
+          ["vite", "virtual:84ab937261ab1186ce9d7b32e0776d87a00f18be9e7cbecadad38d22dc4f1a0c95f4bc0be774c17a6654c02d251218005b7208c9bccec11f331f887559d6168b#npm:5.4.14"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -1202,7 +1202,7 @@ const RAW_RUNTIME_STATE =
           ["@types/babel__core", "npm:7.20.5"],\
           ["@types/vite", null],\
           ["react-refresh", "npm:0.14.2"],\
-          ["vite", "virtual:84ab937261ab1186ce9d7b32e0776d87a00f18be9e7cbecadad38d22dc4f1a0c95f4bc0be774c17a6654c02d251218005b7208c9bccec11f331f887559d6168b#npm:5.4.6"]\
+          ["vite", "virtual:84ab937261ab1186ce9d7b32e0776d87a00f18be9e7cbecadad38d22dc4f1a0c95f4bc0be774c17a6654c02d251218005b7208c9bccec11f331f887559d6168b#npm:5.4.14"]\
         ],\
         "packagePeers": [\
           "@types/vite",\
@@ -4644,17 +4644,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["vite", [\
-      ["npm:5.4.6", {\
-        "packageLocation": "../../.yarn/berry/cache/vite-npm-5.4.6-129b7665fc-10c0.zip/node_modules/vite/",\
+      ["npm:5.4.14", {\
+        "packageLocation": "../../.yarn/berry/cache/vite-npm-5.4.14-4903607bfe-10c0.zip/node_modules/vite/",\
         "packageDependencies": [\
-          ["vite", "npm:5.4.6"]\
+          ["vite", "npm:5.4.14"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:84ab937261ab1186ce9d7b32e0776d87a00f18be9e7cbecadad38d22dc4f1a0c95f4bc0be774c17a6654c02d251218005b7208c9bccec11f331f887559d6168b#npm:5.4.6", {\
-        "packageLocation": "./.yarn/__virtual__/vite-virtual-695af5884e/3/.yarn/berry/cache/vite-npm-5.4.6-129b7665fc-10c0.zip/node_modules/vite/",\
+      ["virtual:84ab937261ab1186ce9d7b32e0776d87a00f18be9e7cbecadad38d22dc4f1a0c95f4bc0be774c17a6654c02d251218005b7208c9bccec11f331f887559d6168b#npm:5.4.14", {\
+        "packageLocation": "./.yarn/__virtual__/vite-virtual-752d8de2b4/3/.yarn/berry/cache/vite-npm-5.4.14-4903607bfe-10c0.zip/node_modules/vite/",\
         "packageDependencies": [\
-          ["vite", "virtual:84ab937261ab1186ce9d7b32e0776d87a00f18be9e7cbecadad38d22dc4f1a0c95f4bc0be774c17a6654c02d251218005b7208c9bccec11f331f887559d6168b#npm:5.4.6"],\
+          ["vite", "virtual:84ab937261ab1186ce9d7b32e0776d87a00f18be9e7cbecadad38d22dc4f1a0c95f4bc0be774c17a6654c02d251218005b7208c9bccec11f331f887559d6168b#npm:5.4.14"],\
           ["@types/less", null],\
           ["@types/lightningcss", null],\
           ["@types/node", null],\
@@ -4712,7 +4712,7 @@ const RAW_RUNTIME_STATE =
           ["react-bootstrap", "virtual:84ab937261ab1186ce9d7b32e0776d87a00f18be9e7cbecadad38d22dc4f1a0c95f4bc0be774c17a6654c02d251218005b7208c9bccec11f331f887559d6168b#npm:2.10.2"],\
           ["react-dom", "virtual:84ab937261ab1186ce9d7b32e0776d87a00f18be9e7cbecadad38d22dc4f1a0c95f4bc0be774c17a6654c02d251218005b7208c9bccec11f331f887559d6168b#npm:18.3.1"],\
           ["react-router-dom", "virtual:84ab937261ab1186ce9d7b32e0776d87a00f18be9e7cbecadad38d22dc4f1a0c95f4bc0be774c17a6654c02d251218005b7208c9bccec11f331f887559d6168b#npm:6.23.1"],\
-          ["vite", "virtual:84ab937261ab1186ce9d7b32e0776d87a00f18be9e7cbecadad38d22dc4f1a0c95f4bc0be774c17a6654c02d251218005b7208c9bccec11f331f887559d6168b#npm:5.4.6"]\
+          ["vite", "virtual:84ab937261ab1186ce9d7b32e0776d87a00f18be9e7cbecadad38d22dc4f1a0c95f4bc0be774c17a6654c02d251218005b7208c9bccec11f331f887559d6168b#npm:5.4.14"]\
         ],\
         "linkType": "SOFT"\
       }]\
